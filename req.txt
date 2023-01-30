@@ -1,0 +1,6 @@
+google-auth-httplib2
+apiclient
+google_auth_oauthlib
+oauth2client
+google-api-python-client
+pyTelegramBotAPI
