@@ -79,7 +79,7 @@ def lalala(message):
                 bot.send_message(message.chat.id, "Введите, пожалуйста, номер вашего заказа, выданного менеджером.")
                 return 0
             elif message.text == "Нужна помощь":
-                bot.send_message(message.chat.id, "@abwannammm - Руководитель финансового отдела (обращаться по поводу проблем с оплатой, возврата денег)\n@Aj1ka - Руководитель по вопросам доставки\n@petrrryashin - Руководитель по принятию заказов")
+                bot.send_message(message.chat.id, "@abwannammm - Руководитель ( обращаться по остальным вопросам )\n@Aj1ka - Директор отдела доставки.\n@petrrryashin - Директор отдела заказов.")
             else:
                 bot.send_message(message.chat.id, "Я вас не понимаю :)")
         if states[personal_id] == 1:
